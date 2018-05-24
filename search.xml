@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[other]]></title>
+    <title><![CDATA[Next 安装的一些问题]]></title>
     <url>%2F2018%2F05%2F24%2Fother%2F</url>
-    <content type="text"><![CDATA[Next 安装的一些问题这次装next主题的时候，遇到了一些问题：在站点配置文件中可以配置如下：1234deploy: type: git repository: git@github.com:&#123;name&#125;/&#123;name&#125;.github.io.git branch: master 配置其他的请参考：hexo 第三方的配置]]></content>
+    <content type="text"><![CDATA[这次装next主题的时候，遇到了一些问题：在站点配置文件中可以配置如下：1234deploy: type: git repository: git@github.com:&#123;name&#125;/&#123;name&#125;.github.io.git branch: master 配置其他的请参考：hexo 第三方的配置]]></content>
   </entry>
   <entry>
     <title><![CDATA[几大排序算法的Java实现]]></title>
