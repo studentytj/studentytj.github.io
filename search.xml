@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[数据结构与算法分析]]></title>
+    <url>%2F2018%2F06%2F02%2FAlgorithm%2F</url>
+    <content type="text"><![CDATA[只要在常数时间内可以将问题的大小削减为其一部分（$ \frac{1}{2} $）, 那么该算法就是($O(logN)$) 最大子序列和问题($O(NlogN)$) 123456789101112public static int maxSubSum(int[] arr) &#123; int maxSum = 0, thisSum = 0; for (int i = 0; i &lt; arr.length; i++) &#123; thisSum += arr[i]; if (thisSum &gt; maxSum) &#123; maxSum = thisSum; &#125; else if (thisSum &lt; 0) &#123; thisSum = 0; &#125; &#125; return maxSum;&#125; 折半查找binary search($O(logN)$) 1234567891011121314public static int binarySearch(int[] arr, int x) &#123; int low = 0, high = arr.length - 1; while (low &lt;= high) &#123; int mid = (low + high)/2; if (arr[mid] &lt; x) &#123; low = ++mid; &#125; else if (arr[mid] &gt; x) &#123; high = --mid; &#125; else &#123; return mid; &#125; &#125; return -1;&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Next 安装的一些问题]]></title>
     <url>%2F2018%2F05%2F24%2Fother%2F</url>
     <content type="text"><![CDATA[这次装next主题的时候，遇到了一些问题：在站点配置文件中可以配置如下：1234deploy: type: git repository: git@github.com:&#123;name&#125;/&#123;name&#125;.github.io.git branch: master 配置其他的请参考：hexo 第三方的配置]]></content>
